@@ -1,0 +1,17 @@
+parser: babel-eslint
+
+parserOptions:
+  sourceType: module
+
+plugins:
+  - babel
+
+rules:
+  # https://github.com/babel/babel-eslint/issues/554
+  quotes: off
+  babel/quotes:
+    - error
+    - single
+    - avoidEscape: true
+      allowTemplateLiterals: true
+

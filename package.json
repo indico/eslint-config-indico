@@ -1,0 +1,31 @@
+{
+  "name": "eslint-config-indico",
+  "version": "1.0.0",
+  "description": "ESLint config/preset used by the Indico team",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/indico/eslint-config-indico.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig",
+    "javascript"
+  ],
+  "author": "Indico Team",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/indico/eslint-config-indico/issues"
+  },
+  "homepage": "https://github.com/indico/eslint-config-indico#readme",
+  "dependencies": {
+    "js-yaml": "^3.11.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=4.19",
+    "eslint-plugin-import": ">=2.10"
+  }
+}
