@@ -14,4 +14,9 @@ rules:
     - single
     - avoidEscape: true
       allowTemplateLiterals: true
+  # the default 'semi' rule does not check class properties
+  semi: off
+  babel/semi:
+    - error
+    - always
 
