@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-indico",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "ESLint config/preset used by the Indico team",
   "main": "index.js",
   "repository": {
