@@ -41,6 +41,8 @@ Requires `prettier`, `eslint-config-prettier` and `eslint-plugin-prettier`
 Make sure to load this after all other `indico/*` presets.  
 When using babel/react, also enable the `prettier/babel` and `prettier/react` presets.
 
+For convenience, we also include a prettier config, that can be loaded by putting `"eslint-config-indico/prettier-config"` in your `.prettierrc`.
+
 ## Example `.eslintrc.yml`
 
 ```yaml
