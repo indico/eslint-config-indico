@@ -9,7 +9,6 @@ rules:
   react/default-props-match-prop-types: error
   react/destructuring-assignment: warn
   react/display-name: error
-  react/forbid-component-props: error
   react/no-access-state-in-setstate: warn
   react/no-array-index-key: warn
   react/jsx-boolean-value: error
