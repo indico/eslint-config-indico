@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-indico",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "ESLint config/preset used by the Indico team",
   "main": "index.js",
   "repository": {
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/indico/eslint-config-indico#readme",
   "dependencies": {
-    "js-yaml": "^3.11.0"
+    "js-yaml": "^3.13.1"
   },
   "peerDependencies": {
     "eslint": ">=5.0",
