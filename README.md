@@ -7,7 +7,7 @@ This is the ESLint config used by the Indico team.
 ```shell
 npm install --save-dev eslint-config-indico
 # if you use babel
-npm install --save-dev eslint-plugin-babel babel-eslint
+npm install --save-dev eslint-plugin-babel @babel/eslint-parser
 # if you use react
 npm install --save-dev eslint-plugin-react
 # if you use react-hooks
@@ -32,7 +32,7 @@ Requires `eslint-plugin-react-hooks`
 
 ### indico/babel
 Enables the babel plugin and parser.  
-Requires `eslint-plugin-babel` and `babel-eslint`.  
+Requires `eslint-plugin-babel` and `@babel/eslint-parser`.  
 Make sure to load this *after* the `indico` preset to avoid duplicate quote warnings.
 
 ### indico/prettier

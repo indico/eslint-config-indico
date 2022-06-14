@@ -1,4 +1,4 @@
-parser: babel-eslint
+parser: '@babel/eslint-parser'
 
 parserOptions:
   sourceType: module
@@ -7,8 +7,6 @@ plugins:
   - babel
 
 rules:
-  # https://github.com/babel/babel-eslint/issues/554
-  quotes: off
   babel/quotes:
     - error
     - single
@@ -19,4 +17,3 @@ rules:
   babel/semi:
     - error
     - always
-
